@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registreren</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<header>
+		<h3>Registreer je hier</h3>
+	</header>
+	<!-- Gebruik hier GET en niet Post -->
+	<div>
+		<form method="GET">
+			Voornaam <input type="text" name="Voornaam" required><br>
+			Achternaam <input type="text" name="Achternaam" required><br>
+			Email <input type="Email" name="Email" required><br>
+			Wachtwoord <input type="password" name="Wachtwoord" required minlength="6"><br>
+			Geboortedatum <input type="date" name="Geboortedatum" required><br>
+			Geslacht <br>
+			<input type="radio" name="geslacht" name="Man" value="Man" required>Man
+			<input type="radio" name="geslacht" name="Vrouw" value="Vrouw" required>Vrouw<br>
+			Huisdieren <br>
+				<input type="checkbox" name="Kat" required > Kat <br>
+				<input type="checkbox" name="Hond" required > Hond <br>
+				<input type="checkbox" name="Vis" required > Vis <br>
+			<input type="checkbox" name="Leeuw" required > Leeuw <br>
+			Auto: <br>
+			<select name="Auto" required>
+				<option value="Volvo">Volvo</option>
+				<option value="Audi">Audi</option>
+				<option value="Mercedes">Mercedes</option>
+				<option value="Seat">Seat</option>
+				<option value="Geen">Geen</option>
+			</select><br>
+			<input type="submit" value="Verzenden">
+			<input type="reset" value="Clear">
+		</form>
+	</div>
+	<nav>
+		<p><a href="Index.html">Terug</a></p>
+	</nav>
+	<footer>
+		<p>Gemaakt met liefde</p>
+	</footer>
+</body>
+</html>
